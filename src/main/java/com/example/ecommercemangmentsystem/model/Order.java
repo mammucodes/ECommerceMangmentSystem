@@ -9,7 +9,6 @@ public class Order {
     private Date orderDate;
     public Order(){}
 
-
     public Order(List<CartItem> orderedItems, double totalPrice, Date orderDate) {
         this.orderedItems = orderedItems;
         this.totalPrice = totalPrice;
